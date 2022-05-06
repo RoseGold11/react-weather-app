@@ -75,7 +75,7 @@ function App() {
             <div className="forecast"></div>
             <small>
               <a
-                href="https://github.com/RoseGold11/vanilla-weather-app"
+                href="https://github.com/RoseGold11/react-weather-app"
                 target="blank"
               >
                 Open-source code
