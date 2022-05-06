@@ -1,0 +1,128 @@
+.weather-app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 15px;
+  border: 25px solid #fef7f9;
+  border-radius: 11px;
+  background-color: #ffd0db;
+}
+.dark-border {
+  max-width: 800px;
+  margin: 35px auto;
+  border: 3px solid #ffd0db;
+  border-radius: 12px;
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
+}
+h1,
+.date {
+  color: #fef7f9;
+  text-align: left;
+  position: relative;
+  left: 12px;
+  line-height: 1;
+  font-style: italic;
+  font-weight: normal;
+}
+
+h2,
+.display-5,
+.weather-description {
+  text-align: center;
+  color: #fef7f9;
+}
+li {
+  line-height: 1.5;
+  color: #fef7f9;
+  list-style: none;
+  font-weight: bold;
+}
+a {
+  color: #ff7295;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:hover {
+  transition: all 200ms ease;
+  color: #fef7f9;
+}
+small {
+  padding: 15px;
+  color: #fef7f9;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+.search-form {
+  width: 290px;
+  padding: 10px;
+  position: relative;
+  top: 15px;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  border: 3px solid #ff7295;
+  border-radius: 12px;
+  box-shadow: 4px 2px 2px rgba(0, 0, 0, 0.2);
+  background-color: #fef7f9;
+  color: #ff7295;
+}
+.date .weather-description {
+  font-size: 17px;
+  font-family: "Raleway", sans-serif;
+}
+
+.weather-description:first-letter {
+  text-transform: capitalize;
+}
+
+.current-temperature {
+  font-family: "Nanum Gothic", sans-serif;
+}
+.measurement {
+  position: relative;
+  top: -37px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.line {
+  border-right: 2px solid #ff7295;
+}
+.wind,
+.humidity {
+  font-family: "Raleway", sans-serif;
+}
+.words {
+  font-family: "Raleway", sans-serif;
+}
+
+.active {
+  color: #fef7f9;
+  text-decoration: none;
+  cursor: default;
+}
+.forecast {
+  margin: 20px;
+  padding: 15px;
+  color: #fef7f9;
+  text-align: center;
+  background: #ff7295;
+  border: 2px solid #ff7295;
+  border-radius: 12px;
+  box-shadow: 4px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.forecast-day {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-style: italic;
+}
+.forecast-temperature {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 15px;
+}
+.forecast-temperature-high {
+  font-size: 18px;
+}
+.forecast-temperature-low {
+  opacity: 0.7;
+}
